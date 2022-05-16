@@ -55,7 +55,7 @@ class Stones(unittest.TestCase):
         time.sleep(25)
         # doc_link.click()
         # self.assertEqual(self.driver.title, "The Selenium Browser Automation Project | Selenium")
-        # self.assertEqual(self.driver.current_url, "https://www.selenium.dev/documentation/")
+        self.assertEqual(self.driver.current_url, "https://www.selenium.dev/documentation/")
 
     @unittest.skip("Oooops") ## skips test
     def test_2(self):
