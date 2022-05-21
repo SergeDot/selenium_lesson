@@ -10,7 +10,7 @@ git commit -m "Added files"<title> -m "Description"<more info>
 git push -u origin main
 
 git branch <branch_name> ##adds a branch
-git branch ##displays where we are 
+git branch ##displays what branch we are on
 git log
 git commit -a -m "<comment>" ## combine add and commit
 git checkout -b branch-SergeDot ##switches to a branch
@@ -18,3 +18,6 @@ git checkout -b branch-SergeDot ##switches to a branch
 ##commit changes, checkout to "main" and then:
 git merge <branch_name> ##merges the branch_name into the active one; the branch will not be independent anymore unless it is main
 git branch -d <branch_name> ##deletes branch
+
+git reset --merge <commit number> ##rollback
+
