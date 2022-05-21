@@ -18,11 +18,3 @@ git checkout -b branch-SergeDot ##switches to a branch
 ##commit changes, checkout to "main" and then:
 git merge <branch_name> ##
 
-sdfsdfdsfdsfsd
-dsdfdsf
-dsfsadsa
-s
-ds
-ds
-d
-ds
